@@ -1,0 +1,63 @@
+/* Ensure the window has the specified dimensions and is visually appealing */
+.part-master-window {
+    width: 609px;
+    height: 300px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Style the date field to be prominently visible */
+.date-field {
+    font-size: 14pt;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style the buttons */
+button {
+    background-color: white;
+    color: black;
+    font-family: 'Calibri', sans-serif;
+    font-size: 10pt;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e6e6e6;
+}
+
+/* Specific styles for the 'Clear' button */
+.clear-button {
+    background-color: #ffcccb;
+}
+
+/* Specific styles for the 'Edit' button */
+.edit-button {
+    background-color: #add8e6;
+}
+
+/* Specific styles for the 'Exit' button */
+.exit-button {
+    background-color: #d3d3d3;
+}
+
+/* Style the confirmation dialog */
+.confirmation-dialog {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style error messages */
+.error-message {
+    color: red;
+    font-size: 12pt;
+    font-weight: bold;
+    margin-top: 10px;
+}
